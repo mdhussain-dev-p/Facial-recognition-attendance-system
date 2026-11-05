@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated application data
+data/
+classifier/
+attendance_report/
+
+# Build files
+build/
+dist/
+*.exe
+*.msi
+*.pyd
+
+# Logs
+*.log
+
+# Local editor settings
+.vscode/
+attendance_report.csv
