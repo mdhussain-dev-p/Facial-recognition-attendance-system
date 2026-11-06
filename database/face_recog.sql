@@ -19,10 +19,10 @@
 -- Table structure for table `register`
 --
 
-DROP TABLE IF EXISTS `register`;
+-- Preserve existing register table and its records.
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `register` (
+CREATE TABLE IF NOT EXISTS `register` (
   `fname` varchar(45) DEFAULT NULL,
   `lname` varchar(45) DEFAULT NULL,
   `contact` varchar(45) DEFAULT NULL,
@@ -46,10 +46,10 @@ UNLOCK TABLES;
 -- Table structure for table `student`
 --
 
-DROP TABLE IF EXISTS `student`;
+-- Preserve existing student table and its records.
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `student` (
+CREATE TABLE IF NOT EXISTS `student` (
   `Department` varchar(45) DEFAULT NULL,
   `GroupNo` varchar(45) DEFAULT NULL,
   `YearNo` varchar(45) DEFAULT NULL,
