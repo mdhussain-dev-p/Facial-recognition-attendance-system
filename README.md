@@ -122,6 +122,5 @@ To prepare the database:
 2. Create a database named `face_recog`.
 3. Import `database/face_recog.sql` into that database.
 4. Copy `.env.example` to `.env` and enter your own MySQL connection details.
-5. Keep `.env`, passwords, API keys and real student records private. Do not upload them to GitHub.
 
 The SQL file defines the tables needed by the application. It does not contain real student or account records.
